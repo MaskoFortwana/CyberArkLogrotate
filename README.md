@@ -29,6 +29,7 @@ This document outlines the usage and configuration of log rotation scripts for C
 
 1. Copy the bash script into any folder.
 2. Add it to crontab, for example:
+   `0 23 * * * /home/scripts/psms-logrotate.sh`
 
 ### PSMS Log Rotation Defaults
 
